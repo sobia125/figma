@@ -1,0 +1,561 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .nav-menu a:hover {
+    color: #28a745;
+  }
+  
+  .btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #218838;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-menu ul {
+      display: none;
+    }
+    .btn {
+      font-size: 14px;
+      padding: 8px 14px;
+    }
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f9f8;
+    color: #333;
+  }
+  
+  .hero {
+    padding: 80px 20px;
+    background-color: #f5f9f8;
+  }
+  
+  .hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .hero-text {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .hero-text h1 {
+    font-size: 48px;
+    line-height: 1.3;
+    color: #333;
+  }
+  
+  .hero-text h1 span {
+    color: #28a745;
+  }
+  
+  .hero-text p {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #218838;
+  }
+  
+  .hero-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .clients-section {
+    text-align: center;
+    padding: 40px 20px; /* Add some padding around the section */
+  }
+  
+  .clients-header h2 {
+    font-size: 2.5em; /* Adjust font size */
+    margin-bottom: 10px;
+    color: #333; /* Example text color */
+  }
+  
+  .clients-header p {
+    color: #777; /* Example secondary text color */
+    margin-bottom: 30px;
+  }
+  
+  .clients-logos {
+    display: flex; /* Arrange logos horizontally */
+    justify-content: center; /* Center the logos */
+    align-items: center; /* Vertically align if needed */
+    gap: 30px; /* Space out the logos */
+    flex-wrap: wrap; /* Allow logos to wrap to the next line on smaller screens */
+  }
+  
+  .clients-logos img {
+    max-width: 100px; /* Set a maximum width for the logos */
+    height: auto; /* Maintain aspect ratio */
+    opacity: 0.6; /* Example: slightly fade out logos */
+    transition: opacity 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .clients-logos img:hover {
+    opacity: 1; /* Make logos fully visible on hover */
+  }
+  
+  .management-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f9f9f9; /* Example background color */
+  }
+  
+  .management-section h2 {
+    font-size: 2.2em;
+    line-height: 1.3;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .management-section .subheader {
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  .suitable-for-grid {
+    display: grid; /* Use CSS Grid for layout */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
+    gap: 30px;
+    padding: 0 20px; /* Add some horizontal padding */
+    max-width: 1200px; /* Limit the width of the grid */
+    margin: 0 auto; /* Center the grid */
+  }
+  
+  .suitable-for-item {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;
+  }
+  
+  .suitable-for-item img {
+    max-width: 60px;
+    height: auto;
+    margin-bottom: 15px;
+    opacity: 0.8; /* Example icon styling */
+  }
+  
+  .suitable-for-item h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .suitable-for-item p {
+    color: #666;
+    font-size: 0.9em;
+    line-height: 1.6;
+  }
+  
+  /* Responsive adjustments (example) */
+  @media (max-width: 768px) {
+    .clients-logos {
+      gap: 20px;
+    }
+    .suitable-for-grid {
+      padding: 0 10px;
+    }
+  }
+  .hero-section {
+    display: flex; /* Arrange image and content side by side */
+    align-items: center; /* Vertically align items in the center */
+    padding: 80px 40px; /* Add padding around the section */
+    background-color: #f9f9f9; /* Example background color */
+  }
+  
+  .hero-image {
+    flex: 0 0 40%; /* Image takes up approximately 40% of the width */
+    text-align: center; /* Center the image within its container */
+  }
+  
+  .hero-image img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto;
+  }
+  
+  .hero-content {
+    flex: 0 0 60%; /* Content takes up approximately 60% of the width */
+    padding-left: 40px; /* Add some space between the image and content */
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5em; /* Adjust font size for the heading */
+    line-height: 1.3;
+    color: #333; /* Example heading color */
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    color: #666; /* Example paragraph color */
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .button {
+    display: inline-block; /* Allows setting padding and margins */
+    background-color: #4CAF50; /* Example button background color (green) */
+    color: white; /* Example button text color */
+    padding: 15px 30px; /* Add padding to the button */
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 5px; /* Add rounded corners */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Responsive adjustments (example) */
+  @media (max-width: 768px) {
+    .hero-section {
+      flex-direction: column; /* Stack image and content vertically on smaller screens */
+      text-align: center; /* Center text on smaller screens */
+      padding: 60px 20px;
+    }
+  
+    .hero-image {
+      flex: 0 0 auto; /* Allow image to take its natural width */
+      margin-bottom: 30px; /* Add space below the image */
+    }
+  
+    .hero-content {
+      flex: 0 0 auto;
+      padding-left: 0; /* Remove left padding */
+    }
+  
+    .hero-content h1 {
+      font-size: 2em;
+    }
+  }
+  .stats-section {
+    display: flex; /* Arrange left and right parts side by side */
+    justify-content: space-between; /* Space them out */
+    align-items: center; /* Vertically align */
+    padding: 40px 60px; /* Add padding */
+    background-color: #f9f9f9; /* Light background */
+  }
+  
+  .stats-left {
+    flex: 1; /* Take up available space */
+  }
+  
+  .stats-left h2 {
+    font-size: 2em; /* Adjust size */
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .stats-left .highlight {
+    color: #4CAF50; /* Example highlight color (green) */
+  }
+  
+  .stats-left .subheader {
+    color: #777;
+  }
+  
+  .stats-right {
+    display: grid; /* Arrange stats in a grid */
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Spacing between grid items */
+  }
+  
+  .stat-item {
+    display: flex; /* Arrange icon, number, label horizontally */
+    flex-direction: column; /* Stack them vertically */
+    align-items: center; /* Center items */
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* White background for each stat */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+  }
+  
+  .stat-item img {
+    max-width: 30px; /* Adjust icon size */
+    height: auto;
+    margin-bottom: 10px;
+    opacity: 0.7; /* Slightly faded icons */
+  }
+  
+  .stat-item .number {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .stat-item .label {
+    color: #555;
+    font-size: 0.9em;
+  }
+  
+  /* Responsive adjustments for stats section */
+  @media (max-width: 768px) {
+    .stats-section {
+      flex-direction: column; /* Stack left and right parts */
+      text-align: center;
+      padding: 30px;
+    }
+  
+    .stats-right {
+      grid-template-columns: 1fr; /* Single column on smaller screens */
+    }
+  
+    .stats-left {
+      margin-bottom: 30px;
+    }
+  }  
+  .main-footer {
+    background-color: #22272D; /* Dark background color */
+    color: #D1D1D1; /* Light text color */
+    padding: 60px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .footer-left {
+    flex: 1;
+    margin-right: 40px;
+  }
+  
+  .logo-info {
+    margin-bottom: 20px;
+  }
+  
+  .logo-info img {
+    max-height: 30px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .logo-info p {
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-links a:last-child {
+    margin-right: 0;
+  }
+  
+  .social-links img {
+    max-height: 20px;
+    height: auto;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+  
+  .social-links img:hover {
+    opacity: 1;
+  }
+  
+  .footer-middle {
+    display: flex;
+    gap: 80px;
+  }
+  
+  .footer-middle h3 {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+  }
+  
+  .footer-middle ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-middle li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-middle li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .footer-middle a {
+    text-decoration: none;
+    color: #D1D1D1;
+    font-size: 0.9em;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-middle a:hover {
+    color: white;
+  }
+  
+  .footer-right {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .footer-right h3 {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    text-align: left;
+  }
+  
+  .subscribe-form {
+    display: flex;
+  }
+  
+  .subscribe-form input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 0.9em;
+    color: #333;
+    flex-grow: 1;
+  }
+  
+  .subscribe-form button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscribe-form button:hover {
+    background-color: #666;
+  }
+  
+  .subscribe-form button img {
+    max-height: 16px;
+    height: auto;
+    vertical-align: middle;
+  }
+  
+  /* Responsive adjustments for footer */
+  @media (max-width: 768px) {
+    .main-footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+  
+    .footer-left,
+    .footer-middle,
+    .footer-right {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  
+    .footer-middle {
+      flex-direction: column;
+      gap: 40px;
+    }
+  
+    .footer-right {
+      text-align: center;
+    }
+  
+    .subscribe-form {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .subscribe-form input[type="email"] {
+      flex-grow: 0.8;
+    }
+  }
